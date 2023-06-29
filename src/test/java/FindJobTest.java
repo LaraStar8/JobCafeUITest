@@ -129,7 +129,7 @@ public class FindJobTest extends UseCaseBase {
         findJobPage.clickResetButton();
         String newCompany = findJobPage.companyElement().getAccessibleName();
         String newPosition = findJobPage.positionElement().getAccessibleName();
-        String newLocation = findJobPage.locationElement().getAccessibleName().;
+        String newLocation = findJobPage.locationElement().getAccessibleName();
 
         assertNotEquals(newLocation,enteredLocation);
         assertNotEquals(newPosition,enteredPosition);
